@@ -30,7 +30,34 @@ export default function Inertia({title}) {
     root.addEventListener("mousemove", handleMouseMove);
 
     const mediaEls = root.querySelectorAll(".media");
+    const mediaElsImg = root.querySelectorAll(".media img");
 
+    // 👇 Animate when container enters viewport
+     gsap.fromTo(
+      mediaElsImg,
+      {
+        opacity: 0,
+        y: 50,
+        clipPath: "inset(100% 0% 0% 0%)",
+        scale: 1.2, // optional, makes it feel "popping in"
+      },
+      {
+        opacity: 1,
+        y: 0,
+        clipPath: "inset(0% 0% 0% 0%)",
+        scale: 1,
+        duration: 1,
+        stagger: 0.05,
+        ease: "power4.out",
+        scrollTrigger: {
+          trigger: root.querySelector(".medias"),
+          start: "top 80%", // when top of container hits 80% of viewport
+          toggleActions: "play none none none", // play once
+        },
+      }
+    );
+
+    // Hover inertia effect
     mediaEls.forEach((el) => {
       const handleMouseEnter = () => {
         const tl = gsap.timeline({
