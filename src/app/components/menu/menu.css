@@ -1,0 +1,150 @@
+.menu {
+    background: whitesmoke;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: clamp(40px, 4vw, 80px);
+    left: calc(50% - 150px);
+    width: 300px;
+    padding: 1rem;
+    height: 60px;
+    border-radius: 16px;
+}
+
+.menu-logo {
+    width: 80px;
+    /* position: absolute; */
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+/* Open Button (Hamburger) */
+.menu-toggle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 40px;
+    height: 138px;
+    left: calc(50% - 69px);
+    background: none;
+    border: none;
+    z-index: 2;
+    cursor: pointer;
+    color: var(--text);
+    text-align: right;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hamburger span {
+    width: 24px;
+    height: 2px;
+    background-color: var(--text);
+    display: block;
+}
+
+.menu-label {
+    font-size: 16px;
+    /* color: var(--accent); */
+    margin-top: 5px;
+    display: block;
+}
+
+/* Menu Overlay */
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50vw;
+    background: #ffffffe3;
+    background: -webkit-linear-gradient(60deg, rgb(255, 255, 255), rgb(189, 190, 255));
+    clip-path: inset(0% 0% 0% 100%);
+    /* transition: clip-path 0.5s ease; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.menu-overlay.visible {
+    clip-path: inset(0% 0% 0% 0%);
+}
+
+/* Close Button */
+.close-button {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.close-icon {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.close-label {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+/* Menu Links */
+.menu-links {
+    position: absolute;
+    /* bottom: 0; */
+    top: calc(50vh - (max-content / 2));
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    /* padding-left: 40px; */
+    flex: 1;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-size: 80px;
+    line-height: 85%;
+    color: #000;
+    text-shadow: #8e39f6 0 80px 0;
+    font-weight: bold;
+    will-change: color;
+    overflow-y: hidden;
+    transition: color .4s ease .08s;
+}
+
+.menu-link:hover {
+    color: #0000008a;
+}
+
+/* Footer text */
+.menu-footer {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    font-size: 16px;
+    color: #0000007c;
+}
+
+.menu-footer p {
+    width: 20ch;
+    text-align: right;
+}

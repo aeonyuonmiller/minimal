@@ -1,0 +1,28 @@
+.preloader {
+    position: fixed;
+    inset: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--background);
+    display: grid;
+    place-content: center center;
+    gap: 40px;
+    z-index: 1000;
+}
+
+.preloader-counter {
+    color: var(--midground);
+    font-size: 15rem;
+    font-weight: bold;
+    width: 4ch;
+}
+
+.preloader-progressbar {
+    height: 4px;
+    width: 90vw;
+    border-radius: 10px;
+    background: var(--midground);
+    background: -webkit-linear-gradient(60deg, rgb(2, 219, 252), rgb(2, 123, 252), rgb(16, 20, 247));
+}
