@@ -91,27 +91,27 @@ export default function Inertia({title}) {
       
         <div className="medias">
             <div className="media">
-                <img src="/001.jpg" alt="Media 1" />
+                <img src="./001.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="/002.jpeg" alt="Media 2" />
+                <img src="./002.jpeg" alt="Media 2" />
               </div>
               
               <div className="media">
-                <img src="/004.jpg" alt="Media 1" />
+                <img src="./004.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="/005.jpg" alt="Media 2" />
+                <img src="./005.jpg" alt="Media 2" />
             </div>
               
             <div className="media">
-                <img src="/005.jpg" alt="Media 1" />
+                <img src="./005.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="/004.jpg" alt="Media 2" />
+                <img src="./004.jpg" alt="Media 2" />
               </div>
               
               <div className="media">
@@ -119,23 +119,23 @@ export default function Inertia({title}) {
             </div>
               
             <div className="media">
-                <img src="/001.jpg" alt="Media 2" />
+                <img src="./001.jpg" alt="Media 2" />
               </div>
               
               <div className="media">
-                <img src="/001.jpg" alt="Media 1" />
+                <img src="./001.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="/002.jpeg" alt="Media 2" />
+                <img src="./002.jpeg" alt="Media 2" />
               </div>
               
               <div className="media">
-                <img src="/004.jpg" alt="Media 1" />
+                <img src="./004.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="/005.jpg" alt="Media 2" />
+                <img src="./005.jpg" alt="Media 2" />
             </div>
         </div>
     </div>
