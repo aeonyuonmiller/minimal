@@ -48,13 +48,14 @@ export default function Inertia({title}) {
         rotate: 0,
         clipPath: "inset(0% 0% 0% 0%)",
         scale: 1,
+        delay: .8,
         duration: .8,
         stagger: 0.1,
         ease: "power4.out",
         scrollTrigger: {
           trigger: root.querySelector(".medias"),
           start: "top 80%", // when top of container hits 80% of viewport
-          toggleActions: "play none none none", // play once
+          toggleActions: "play none restart restart",
         },
       }
     );
