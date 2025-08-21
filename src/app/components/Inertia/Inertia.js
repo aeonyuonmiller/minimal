@@ -54,8 +54,9 @@ export default function Inertia({title}) {
         ease: "power4.out",
         scrollTrigger: {
           trigger: root.querySelector(".medias"),
-          start: "top 80%", // when top of container hits 80% of viewport
-          toggleActions: "play none restart restart",
+          start: "top 60%", // when top of container hits 80% of viewport
+          end: "bottom top",
+          toggleActions: "play reverse restart restart",
         },
       }
     );
