@@ -126,13 +126,13 @@ export default function MouseMove() {
             </div>
 
             <div className="medias">
-                <img src="/001.jpg" alt="" />
-                <img src="/005.jpg" alt="" />
-                <img src="/004.jpg" alt="" />
-                <img src="/002.jpeg" alt="" />
-                <img src="/001.jpg" alt="" />
-                <img src="/004.jpg" alt="" />
-                <img src="/005.jpg" alt="" />
+                <img src="/one.jpg" alt="boom" />
+                <img src="/two.jpg" alt="bap" />
+                <img src="/three.jpg" alt="bap" />
+                <img src="/four.jpg" alt="bee" />
+                <img src="/five.jpg" alt="wap" />
+                <img src="/one.jpg" alt="boboom" />
+                <img src="/five.jpg" alt="ba" />
             </div>
         </section>
     );
