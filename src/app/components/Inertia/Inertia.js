@@ -38,16 +38,18 @@ export default function Inertia({title}) {
       {
         opacity: 0,
         y: 50,
+        rotate: 5,
         clipPath: "inset(100% 0% 0% 0%)",
-        scale: 1.2, // optional, makes it feel "popping in"
+        scale: .8, // optional, makes it feel "popping in"
       },
       {
         opacity: 1,
         y: 0,
+        rotate: 0,
         clipPath: "inset(0% 0% 0% 0%)",
         scale: 1,
-        duration: 1,
-        stagger: 0.05,
+        duration: .8,
+        stagger: 0.1,
         ease: "power4.out",
         scrollTrigger: {
           trigger: root.querySelector(".medias"),
