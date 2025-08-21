@@ -91,7 +91,7 @@ export default function Inertia({title}) {
       
         <div className="medias">
             <div className="media">
-                <img src="./001.JPG" alt="Media 1" />
+                <img src="public/001.JPG" alt="Media 1" />
             </div>
               
             <div className="media">
