@@ -95,47 +95,47 @@ export default function Inertia({title}) {
             </div>
               
             <div className="media">
-                <img src="./002.jpeg" alt="Media 2" />
+                <img src="public/002.jpeg" alt="Media 2" />
               </div>
               
               <div className="media">
-                <img src="./004.jpg" alt="Media 1" />
+                <img src="public/004.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="./005.jpg" alt="Media 2" />
+                <img src="public/005.jpg" alt="Media 2" />
             </div>
               
             <div className="media">
-                <img src="./005.jpg" alt="Media 1" />
+                <img src="public/005.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="./004.jpg" alt="Media 2" />
+                <img src="public/004.jpg" alt="Media 2" />
               </div>
               
               <div className="media">
-                <img src="/002.jpeg" alt="Media 1" />
+                <img src="public/002.jpeg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="./001.jpg" alt="Media 2" />
+                <img src="public/001.jpg" alt="Media 2" />
               </div>
               
               <div className="media">
-                <img src="./001.jpg" alt="Media 1" />
+                <img src="public/001.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="./002.jpeg" alt="Media 2" />
+                <img src="public/002.jpeg" alt="Media 2" />
               </div>
               
               <div className="media">
-                <img src="./004.jpg" alt="Media 1" />
+                <img src="public/004.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="./005.jpg" alt="Media 2" />
+                <img src="public/005.jpg" alt="Media 2" />
             </div>
         </div>
     </div>
