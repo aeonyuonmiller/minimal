@@ -91,31 +91,31 @@ export default function Inertia({title}) {
       
         <div className="medias">
             <div className="media">
-                <img src="./001.JPG" alt="Media 1" />
+                <img src="/one.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="./002.jpeg" alt="Media 2" />
+                <img src="/two.jpg" alt="Media 2" />
               </div>
               
               <div className="media">
-                <img src="./004.jpg" alt="Media 1" />
+                <img src="/three.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="./005.jpg" alt="Media 2" />
+                <img src="/four.jpg" alt="Media 2" />
             </div>
               
             <div className="media">
-                <img src="./005.jpg" alt="Media 1" />
+                <img src="/five.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
-                <img src="./004.jpg" alt="Media 2" />
+                <img src="/four.jpg" alt="Media 2" />
               </div>
               
               <div className="media">
-                <img src="./002.jpeg" alt="Media 1" />
+                <img src="/two.jpg" alt="Media 1" />
             </div>
               
             <div className="media">
